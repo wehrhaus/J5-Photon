@@ -1,0 +1,30 @@
+{
+  "name": "j5-photon",
+  "version": "1.0.0",
+  "description": "Environment setup for running Johnny-Five on a Particle.io Photon Module.",
+  "main": "src/examples/blinkLed",
+  "scripts": {
+    "particle_config_env": "bin/particle-config-env.sh",
+    "preinstall": "bin/preinstall.sh",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "voodoo_flash": "node_modules/.bin/voodoospark flash",
+    "voodoo_install": "node_modules/.bin/voodoospark install",
+    "voodoo_update": "node_modules/.bin/voodoospark update"
+  },
+  "keywords": [
+    "Particle.io",
+    "Johnny-Five",
+    "Photon",
+    "VoodooSpark",
+    "Spark-IO"
+  ],
+  "author": "Justin Wehrman",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "dotenv": "^2.0.0",
+    "johnny-five": "^0.10.3",
+    "particle-io": "^0.14.0",
+    "voodoospark-installer": "^0.2.2"
+  }
+}

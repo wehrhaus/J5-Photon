@@ -1,4 +1,4 @@
-# J5-Photon
+# J5 Photon Setup
 Particle.io Photon module running Johnny-Five.
 
 ## SETUP

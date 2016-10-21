@@ -11,6 +11,10 @@
     "voodoo_install": "node_modules/.bin/voodoospark install",
     "voodoo_update": "node_modules/.bin/voodoospark update"
   },
+  "repository": {
+    "type": "git",
+    "ur": "git@github.com:wehrhaus/J5-Photon-Setup.git"
+  },
   "keywords": [
     "Particle.io",
     "Johnny-Five",
@@ -19,7 +23,7 @@
     "Spark-IO"
   ],
   "author": "Justin Wehrman",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
     "app-root-path": "^2.0.1",
     "dotenv": "^2.0.0",

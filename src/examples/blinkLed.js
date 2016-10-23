@@ -1,5 +1,5 @@
 const appRoot = require('app-root-path');
-require(appRoot + '/src/utils/particleConfig');
+require(appRoot + '/src/utils/particleEnv');
 
 const five = require('johnny-five');
 const Particle = require('particle-io');
